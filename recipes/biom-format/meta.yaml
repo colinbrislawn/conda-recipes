@@ -1,0 +1,22 @@
+package:
+  name: biom-format
+  version: "2.1.5"
+
+
+requirements:
+  build:
+    - python >=3.4
+    - pip
+    - numpy
+    - future
+    - h5py
+
+test:
+  commands:
+    - biom show-install-info
+
+about:
+  home: http://www.biom-format.org
+  license: BSD License
+  license_file: COPYING.txt
+  summary: 'Biological Observation Matrix (BIOM) format'
